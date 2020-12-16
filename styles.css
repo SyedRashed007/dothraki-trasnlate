@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body{
+    height: 100%;
+    background-image: url(images/back.jpg);
+    font-family: 'Noto Serif', serif;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    margin: 0px;
+}
+
+.navigation{
+    background-color: rgb(26, 18, 18);
+    width: 100%;
+    height: 150px;
+    align-content: center;
+    border-bottom: 3px solid black;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: sticky;
+}
+
+.nav-name{
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.boxed{
+    background-color: rgb(160, 148, 85);
+    border: 3px solid black;
+    /* width:260px; */
+    height:550px;
+    padding: 3rem;
+    margin: auto;
+    padding: 3rem;
+    width: 22%;
+    border-radius: 28px;
+} 
+
+.box-title{
+    text-align: center;
+    margin: auto;
+    padding-top: -2rem;
+}
+
+textarea{
+    width:92%;
+    height: 100px;
+    margin: auto;
+    display: block;
+    padding: 1rem;
+    
+}
+
+button{
+   width:225px;
+   height: 50px;
+   display: block;
+   background-color: whitesmoke;
+   border-radius: 1rem;
+   border: 2px solid black;
+   font-size: larger;
+   margin: 2rem;
+}
+
+#output{
+    padding: 1rem;
+    margin: auto;
+    border:1px solid black;
+    height: 80px;
+    display: block;
+    width: 90%;
+    background-color: white;
+}
+
+.dothrakigif{
+    width:200px;
+    display: block;
+    margin: auto;
+}
+
+.footer-text{
+    margin: 2px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+ .footer{
+    background-color: rgb(26, 18, 18);
+    width: 100%;
+    margin: auto;
+    height: 34px;
+    margin-top: 20px;
+    border-top: 1rem solid #FFC300 ;
+    border-top: 2px solid black;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+
+}
+
+/*
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.link{
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    border: 1px solid white;
+    display: block;
+} */
